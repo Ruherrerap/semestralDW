@@ -1,0 +1,24 @@
+    nav {
+        background-color: #fdddca; /* Color de fondo del nav */
+        padding: 10px;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li {
+        display: inline;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+    }
+    nav ul li a:hover {
+        background-color: #555;
+        border-radius: 5px;
+    }
+
